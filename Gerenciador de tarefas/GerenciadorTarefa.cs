@@ -10,11 +10,21 @@ namespace GerenciadorTarefas
         }
         public static void ConcluirTarefa(int id)
         {
-            Tarefa TarefaCorrespondente = Tarefa.TarefasList.Find(t => t.ID == id);
-            TarefaCorrespondente.Concluida = true;
+            try
+            {
+                Tarefa TarefaCorrespondente = Tarefa.TarefasList.Find(t => t.ID == id);
+                TarefaCorrespondente.Concluida = true;
+                Formatação.Cor(ConsoleColor.Green,ConsoleColor.Black);
+                Console.WriteLine("\nTarefa Concluida!!");
+                Console.ResetColor();
+                Console.Clear();
+                ListarTarefas();
+            }catch{}
+            
         }
         public static void ListarTarefas()
         {
+            Formatação.Cor(ConsoleColor.Yellow,ConsoleColor.Black);
             foreach(var a in Tarefa.TarefasList)
             {
                 try
@@ -29,6 +39,7 @@ namespace GerenciadorTarefas
                 }
                 catch{} 
             }
+            Console.ResetColor();
         }
         public static void RemoverTarefa(int id)
         {
@@ -40,7 +51,7 @@ namespace GerenciadorTarefas
             Return1:
             Console.Clear();
             ListarTarefas();
-            Console.Write("Digite o ID do Produto: ");
+            Console.Write("\nDigite o ID da Tarefa: ");
             if(!int.TryParse(Console.ReadLine(), out int id))
             {
                 Formatação.Cor(ConsoleColor.White,ConsoleColor.Red);
@@ -49,6 +60,24 @@ namespace GerenciadorTarefas
                 goto Return1;
             }
             return id;
+        }
+        public static string PegarDescrição()
+        {
+            return1:
+            Console.Write("Dê uma descrição para a tarefa: ");
+            string descrição = Console.ReadLine()??"";
+            Console.Write($"Deseja confirmar a descrição: {descrição}\nResponda com sim ou não: ");
+            string confirmar = Console.ReadLine()?.ToLower()??"";
+            switch(confirmar)
+            {
+                case "sim":
+                return descrição;
+
+                case "não":
+                case "nao":
+                default:
+                goto return1;
+            }
         }
     }
 }
