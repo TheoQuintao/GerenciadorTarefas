@@ -13,3 +13,18 @@ c:\Users\Alunos\OneDrive\Documentos\git luiz\GerenciadorTarefas\Gerenciador de t
 c:\Users\Alunos\OneDrive\Documentos\git luiz\GerenciadorTarefas\Gerenciador de tarefas\obj\Debug\net8.0\Gerenciador de tarefas.pdb
 C:\Users\Alunos\OneDrive\Documentos\git luiz\GerenciadorTarefas\Gerenciador de tarefas\obj\Debug\net8.0\Gerenciador de tarefas.genruntimeconfig.cache
 C:\Users\Alunos\OneDrive\Documentos\git luiz\GerenciadorTarefas\Gerenciador de tarefas\obj\Debug\net8.0\ref\Gerenciador de tarefas.dll
+D:\GitTheo\GerenciadorTarefas\Gerenciador de tarefas\bin\Debug\net8.0\Gerenciador de tarefas.exe
+D:\GitTheo\GerenciadorTarefas\Gerenciador de tarefas\bin\Debug\net8.0\Gerenciador de tarefas.deps.json
+D:\GitTheo\GerenciadorTarefas\Gerenciador de tarefas\bin\Debug\net8.0\Gerenciador de tarefas.runtimeconfig.json
+D:\GitTheo\GerenciadorTarefas\Gerenciador de tarefas\bin\Debug\net8.0\Gerenciador de tarefas.dll
+D:\GitTheo\GerenciadorTarefas\Gerenciador de tarefas\bin\Debug\net8.0\Gerenciador de tarefas.pdb
+D:\GitTheo\GerenciadorTarefas\Gerenciador de tarefas\obj\Debug\net8.0\Gerenciador de tarefas.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitTheo\GerenciadorTarefas\Gerenciador de tarefas\obj\Debug\net8.0\Gerenciador de tarefas.AssemblyInfoInputs.cache
+D:\GitTheo\GerenciadorTarefas\Gerenciador de tarefas\obj\Debug\net8.0\Gerenciador de tarefas.AssemblyInfo.cs
+D:\GitTheo\GerenciadorTarefas\Gerenciador de tarefas\obj\Debug\net8.0\Gerenciador de tarefas.csproj.CoreCompileInputs.cache
+D:\GitTheo\GerenciadorTarefas\Gerenciador de tarefas\obj\Debug\net8.0\Gerenciador de tarefas.sourcelink.json
+D:\GitTheo\GerenciadorTarefas\Gerenciador de tarefas\obj\Debug\net8.0\Gerenciador de tarefas.dll
+D:\GitTheo\GerenciadorTarefas\Gerenciador de tarefas\obj\Debug\net8.0\refint\Gerenciador de tarefas.dll
+D:\GitTheo\GerenciadorTarefas\Gerenciador de tarefas\obj\Debug\net8.0\Gerenciador de tarefas.pdb
+D:\GitTheo\GerenciadorTarefas\Gerenciador de tarefas\obj\Debug\net8.0\Gerenciador de tarefas.genruntimeconfig.cache
+D:\GitTheo\GerenciadorTarefas\Gerenciador de tarefas\obj\Debug\net8.0\ref\Gerenciador de tarefas.dll

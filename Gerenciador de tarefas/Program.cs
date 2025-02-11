@@ -5,5 +5,7 @@ using Tarefas;
 string txt = " GERENCIADOR DE TAREFAS ";
 
 Formatação.ImprimirCabecalho(txt);
-Gerenciar.AdicionarTarefa("Menu");
+Gerenciar.AdicionarTarefa("Comer Melancia");
+Tarefa.ExibirTarefa(1);
 Gerenciar.ConcluirTarefa(1);
+Tarefa.ExibirTarefa(1);

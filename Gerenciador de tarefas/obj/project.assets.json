@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Alunos\\.nuget\\packages\\": {}
+    "C:\\Users\\theoo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alunos\\OneDrive\\Documentos\\git luiz\\GerenciadorTarefas\\Gerenciador de tarefas\\Gerenciador de tarefas.csproj",
+      "projectUniqueName": "D:\\GitTheo\\GerenciadorTarefas\\Gerenciador de tarefas\\Gerenciador de tarefas.csproj",
       "projectName": "Gerenciador de tarefas",
-      "projectPath": "C:\\Users\\Alunos\\OneDrive\\Documentos\\git luiz\\GerenciadorTarefas\\Gerenciador de tarefas\\Gerenciador de tarefas.csproj",
-      "packagesPath": "C:\\Users\\Alunos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alunos\\OneDrive\\Documentos\\git luiz\\GerenciadorTarefas\\Gerenciador de tarefas\\obj\\",
+      "projectPath": "D:\\GitTheo\\GerenciadorTarefas\\Gerenciador de tarefas\\Gerenciador de tarefas.csproj",
+      "packagesPath": "C:\\Users\\theoo\\.nuget\\packages\\",
+      "outputPath": "D:\\GitTheo\\GerenciadorTarefas\\Gerenciador de tarefas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Alunos\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\theoo\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
