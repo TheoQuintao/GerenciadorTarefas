@@ -5,26 +5,39 @@ namespace GerenciadorTarefas
 {
     class Gerenciar{
         public static void AdicionarTarefa(String Descrição)
-        {
-            Tarefa.TarefasList.Add(new Tarefa {Nome = Descrição, ID = ++Tarefa.Contador, Concluida = false});
+        { 
+            try
+            {
+                Tarefa.TarefasList.Add(new Tarefa {Nome = Descrição, ID = ++Tarefa.Contador, Concluida = false});
+                Console.Clear();
+                ListarTarefas();
+                Formatação.Cor(ConsoleColor.Green,ConsoleColor.Black);
+                Console.WriteLine("\nTarefa adicionada com sucesso!");
+                Console.ResetColor();
+            }catch{
+                Console.Clear();
+                ListarTarefas();
+            }
         }
         public static void ConcluirTarefa(int id)
         {
             try
             {
-                Tarefa TarefaCorrespondente = Tarefa.TarefasList.Find(t => t.ID == id);
-                TarefaCorrespondente.Concluida = true;
-                Formatação.Cor(ConsoleColor.Green,ConsoleColor.Black);
-                Console.WriteLine("\nTarefa Concluida!!");
-                Console.ResetColor();
+                Tarefa.TarefasList.Find(t => t.ID == id).Concluida=true;
                 Console.Clear();
                 ListarTarefas();
-            }catch{}
-            
+                Formatação.Cor(ConsoleColor.Green,ConsoleColor.Black);
+                Console.WriteLine("\nTarefa concluída!");
+                Console.ResetColor();
+            }catch{
+                Console.Clear();
+                ListarTarefas();
+            }
         }
         public static void ListarTarefas()
         {
             Formatação.Cor(ConsoleColor.Yellow,ConsoleColor.Black);
+            Console.WriteLine("Tarefas:");
             foreach(var a in Tarefa.TarefasList)
             {
                 try
@@ -37,14 +50,27 @@ namespace GerenciadorTarefas
                         Console.WriteLine($"[ ] ID: {a.ID} ─ {a.Nome}");
                     }  
                 }
-                catch{} 
+                catch{
+                    
+                } 
             }
             Console.ResetColor();
         }
         public static void RemoverTarefa(int id)
         {
-            Tarefa TarefaCorrespondente = Tarefa.TarefasList.Find(t => t.ID == id);
-            Tarefa.TarefasList.Remove(TarefaCorrespondente);
+            try
+            {
+                Tarefa Remover = Tarefa.TarefasList.Find(t => t.ID == id);
+                Tarefa.TarefasList.Remove(Remover);
+                Console.Clear();
+                ListarTarefas();
+                Formatação.Cor(ConsoleColor.Red,ConsoleColor.Black);
+                Console.WriteLine("\nTarefa removida com sucesso!");
+                Console.ResetColor(); 
+            }catch{
+                Console.Clear();
+                ListarTarefas();
+            }
         }
         public static int PegarID()
         {
@@ -54,8 +80,9 @@ namespace GerenciadorTarefas
             Console.Write("\nDigite o ID da Tarefa: ");
             if(!int.TryParse(Console.ReadLine(), out int id))
             {
-                Formatação.Cor(ConsoleColor.White,ConsoleColor.Red);
+                Formatação.Cor(ConsoleColor.Red,ConsoleColor.Black);
                 Console.WriteLine("Valor Invalido!!!");
+                Console.ResetColor();
                 Thread.Sleep(1500);
                 goto Return1;
             }
@@ -64,7 +91,8 @@ namespace GerenciadorTarefas
         public static string PegarDescrição()
         {
             return1:
-            Console.Write("Dê uma descrição para a tarefa: ");
+            Console.Clear();
+            Console.Write("Digite a descrição da tarefa: ");
             string descrição = Console.ReadLine()??"";
             Console.Write($"Deseja confirmar a descrição: {descrição}\nResponda com sim ou não: ");
             string confirmar = Console.ReadLine()?.ToLower()??"";
@@ -78,6 +106,13 @@ namespace GerenciadorTarefas
                 default:
                 goto return1;
             }
+        }
+        public static void Saindo()
+        {
+            Formatação.Cor(ConsoleColor.Red,ConsoleColor.Black);
+            Console.WriteLine("\n Saindo...");
+            Thread.Sleep(1000);
+            Console.ResetColor();
         }
     }
 }

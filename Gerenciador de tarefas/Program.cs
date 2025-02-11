@@ -1,23 +1,26 @@
 ﻿using GerenciadorTarefas;
 using Layout;
-using Tarefas;
-
 
 Console.Clear();
 
 string txt = " GERENCIADOR DE TAREFAS ";
+bool rodando = true;
 
-while(true)
+while(rodando==true)
 {
     Formatação.ImprimirCabecalho(txt);
     Console.Write(" 1 ─ Adicionar Tarefa\n 2 ─ Listar Tarefas\n 3 ─ Concluir Tarefa\n 4 ─ Remover Tarefa\n 0 ─ Sair\n Escolha uma opção: ");
     string menu = Console.ReadLine()??"";
+
+    if(menu == "0")
+    {
+        Gerenciar.Saindo();
+        rodando = false;
+    }
+
     Console.Clear();
     switch(menu)
     {
-        case "0":
-        return;
-
         case "1":
             Gerenciar.AdicionarTarefa(Gerenciar.PegarDescrição());
         break;
