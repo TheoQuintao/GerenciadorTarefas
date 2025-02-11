@@ -22,5 +22,6 @@ namespace Tarefas
             else{
                 Console.WriteLine($"[ ] ID: {TarefaCorrespondente.ID} ─ {TarefaCorrespondente.Nome}");
             }
-        }   }
+        }   
+    }
 }

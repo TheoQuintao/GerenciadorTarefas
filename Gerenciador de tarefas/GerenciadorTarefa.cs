@@ -12,5 +12,14 @@ namespace GerenciadorTarefas
             Tarefa TarefaCorrespondente = Tarefa.TarefasList.Find(t => t.ID == id);
             TarefaCorrespondente.Concluida = true;
         }
+        public static void ListarTarefas()
+        {
+            foreach(var a in Tarefa.TarefasList)
+            {
+                int i = 1;
+                Tarefa.ExibirTarefa(i);
+                i++;
+            }
+        }
     }
 }
