@@ -13,15 +13,18 @@ namespace Tarefas
 
 
         public static void ExibirTarefa(int id)
-        {
-            Tarefa TarefaCorrespondente = Tarefa.TarefasList.Find(t => t.ID == id);
-            if(TarefaCorrespondente.Concluida == true)
-            {
-                Console.WriteLine($"[X] ID: {TarefaCorrespondente.ID} ─ {TarefaCorrespondente.Nome}");
+        {   
+            try{
+                Tarefa TarefaCorrespondente = Tarefa.TarefasList.Find(t => t.ID == id);
+                if(TarefaCorrespondente.Concluida == true)
+                {
+                    Console.WriteLine($"[X] ID: {TarefaCorrespondente.ID} ─ {TarefaCorrespondente.Nome}");
+                }
+                else{
+                    Console.WriteLine($"[ ] ID: {TarefaCorrespondente.ID} ─ {TarefaCorrespondente.Nome}");
+                }
             }
-            else{
-                Console.WriteLine($"[ ] ID: {TarefaCorrespondente.ID} ─ {TarefaCorrespondente.Nome}");
-            }
+            catch{}   
         }   
     }
 }
