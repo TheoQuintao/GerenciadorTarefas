@@ -1,0 +1,15 @@
+c:\Users\Alunos\OneDrive\Documentos\git luiz\GerenciadorTarefas\Gerenciador de tarefas\bin\Debug\net8.0\Gerenciador de tarefas.exe
+C:\Users\Alunos\OneDrive\Documentos\git luiz\GerenciadorTarefas\Gerenciador de tarefas\bin\Debug\net8.0\Gerenciador de tarefas.deps.json
+C:\Users\Alunos\OneDrive\Documentos\git luiz\GerenciadorTarefas\Gerenciador de tarefas\bin\Debug\net8.0\Gerenciador de tarefas.runtimeconfig.json
+c:\Users\Alunos\OneDrive\Documentos\git luiz\GerenciadorTarefas\Gerenciador de tarefas\bin\Debug\net8.0\Gerenciador de tarefas.dll
+c:\Users\Alunos\OneDrive\Documentos\git luiz\GerenciadorTarefas\Gerenciador de tarefas\bin\Debug\net8.0\Gerenciador de tarefas.pdb
+c:\Users\Alunos\OneDrive\Documentos\git luiz\GerenciadorTarefas\Gerenciador de tarefas\obj\Debug\net8.0\Gerenciador de tarefas.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Alunos\OneDrive\Documentos\git luiz\GerenciadorTarefas\Gerenciador de tarefas\obj\Debug\net8.0\Gerenciador de tarefas.AssemblyInfoInputs.cache
+c:\Users\Alunos\OneDrive\Documentos\git luiz\GerenciadorTarefas\Gerenciador de tarefas\obj\Debug\net8.0\Gerenciador de tarefas.AssemblyInfo.cs
+c:\Users\Alunos\OneDrive\Documentos\git luiz\GerenciadorTarefas\Gerenciador de tarefas\obj\Debug\net8.0\Gerenciador de tarefas.csproj.CoreCompileInputs.cache
+c:\Users\Alunos\OneDrive\Documentos\git luiz\GerenciadorTarefas\Gerenciador de tarefas\obj\Debug\net8.0\Gerenciador de tarefas.sourcelink.json
+c:\Users\Alunos\OneDrive\Documentos\git luiz\GerenciadorTarefas\Gerenciador de tarefas\obj\Debug\net8.0\Gerenciador de tarefas.dll
+c:\Users\Alunos\OneDrive\Documentos\git luiz\GerenciadorTarefas\Gerenciador de tarefas\obj\Debug\net8.0\refint\Gerenciador de tarefas.dll
+c:\Users\Alunos\OneDrive\Documentos\git luiz\GerenciadorTarefas\Gerenciador de tarefas\obj\Debug\net8.0\Gerenciador de tarefas.pdb
+C:\Users\Alunos\OneDrive\Documentos\git luiz\GerenciadorTarefas\Gerenciador de tarefas\obj\Debug\net8.0\Gerenciador de tarefas.genruntimeconfig.cache
+C:\Users\Alunos\OneDrive\Documentos\git luiz\GerenciadorTarefas\Gerenciador de tarefas\obj\Debug\net8.0\ref\Gerenciador de tarefas.dll
