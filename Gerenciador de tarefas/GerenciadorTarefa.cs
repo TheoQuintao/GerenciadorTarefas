@@ -40,19 +40,7 @@ namespace GerenciadorTarefas
             Console.WriteLine("Tarefas:");
             foreach(var a in Tarefa.TarefasList)
             {
-                try
-                {
-                    if(a.Concluida == true)
-                    {
-                        Console.WriteLine($"[X] ID: {a.ID} ─ {a.Nome}");
-                    }
-                    else{
-                        Console.WriteLine($"[ ] ID: {a.ID} ─ {a.Nome}");
-                    }  
-                }
-                catch{
-                    
-                } 
+                Tarefa.ExibirTarefa(a.ID,a.Concluida,a.Nome);
             }
             Console.ResetColor();
         }
@@ -101,8 +89,6 @@ namespace GerenciadorTarefas
                 case "sim":
                 return descrição;
 
-                case "não":
-                case "nao":
                 default:
                 goto return1;
             }

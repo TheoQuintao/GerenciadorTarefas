@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitTheo\\GerenciadorTarefas\\Gerenciador de tarefas\\Gerenciador de tarefas.csproj": {}
+    "C:\\Users\\Alunos\\OneDrive\\Documentos\\GitTheo\\GerenciadorTarefas\\Gerenciador de tarefas\\Gerenciador de tarefas.csproj": {}
   },
   "projects": {
-    "D:\\GitTheo\\GerenciadorTarefas\\Gerenciador de tarefas\\Gerenciador de tarefas.csproj": {
+    "C:\\Users\\Alunos\\OneDrive\\Documentos\\GitTheo\\GerenciadorTarefas\\Gerenciador de tarefas\\Gerenciador de tarefas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitTheo\\GerenciadorTarefas\\Gerenciador de tarefas\\Gerenciador de tarefas.csproj",
+        "projectUniqueName": "C:\\Users\\Alunos\\OneDrive\\Documentos\\GitTheo\\GerenciadorTarefas\\Gerenciador de tarefas\\Gerenciador de tarefas.csproj",
         "projectName": "Gerenciador de tarefas",
-        "projectPath": "D:\\GitTheo\\GerenciadorTarefas\\Gerenciador de tarefas\\Gerenciador de tarefas.csproj",
-        "packagesPath": "C:\\Users\\theoo\\.nuget\\packages\\",
-        "outputPath": "D:\\GitTheo\\GerenciadorTarefas\\Gerenciador de tarefas\\obj\\",
+        "projectPath": "C:\\Users\\Alunos\\OneDrive\\Documentos\\GitTheo\\GerenciadorTarefas\\Gerenciador de tarefas\\Gerenciador de tarefas.csproj",
+        "packagesPath": "C:\\Users\\Alunos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alunos\\OneDrive\\Documentos\\GitTheo\\GerenciadorTarefas\\Gerenciador de tarefas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\theoo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Alunos\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
